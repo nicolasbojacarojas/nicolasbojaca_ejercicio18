@@ -8,15 +8,16 @@ int main(){
 	float y = 1;
 	float x = 0;
 	float z = 0;
+	float x1 = 0;
 	int N = 3/h;
 	int N1 = 10/h;
 	for (int i = 0; i < N; i++){
-		y = y - h*y;
+		z = z - z*h;
 		x = x + h;
 		for (int j = 0; j < N1; j++){
-			z = z - h*z;
-			y = y + h;
-			cout << z << " " << y <<endl;
+			y = y - h*y;
+			x = x + h;
+			cout << x << " " << y <<endl;
 		}
 	}
 	return 0;

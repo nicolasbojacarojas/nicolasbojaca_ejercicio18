@@ -14,7 +14,7 @@ segunda: grafica2.png
 
 grafica2.png : grafica2.py datos2.txt
 
-	python3 grafica.py
+	python3 grafica2.py
 
 datos2.txt: segundo_orden.cpp
 
